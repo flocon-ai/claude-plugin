@@ -1,0 +1,35 @@
+{
+  "name": "flocon-ai",
+  "displayName": "Flocon AI",
+  "version": "0.1.0",
+  "description": "Publish SEO pages to your own Next.js, React or Astro website straight from Claude. Connects the Flocon AI MCP server and adds a skill that writes useful, unique pages.",
+  "author": {
+    "name": "Flocon AI",
+    "email": "alfred@flocon-ai.com",
+    "url": "https://flocon-ai.com"
+  },
+  "homepage": "https://flocon-ai.com/docs/get-started/connect-mcp",
+  "repository": "https://github.com/flocon-ai/claude-plugin",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://flocon-ai.com/privacy",
+  "icon": ".claude-plugin/icon.png",
+  "keywords": [
+    "seo",
+    "geo",
+    "cms",
+    "nextjs",
+    "astro",
+    "react",
+    "pages",
+    "llms-txt",
+    "sitemap"
+  ],
+  "userConfig": {
+    "mcp_token": {
+      "title": "Flocon AI MCP token",
+      "description": "Your MCP token from https://flocon-ai.com/app/tokens. Use the MCP token, not the website token. One token = one website.",
+      "type": "string",
+      "sensitive": true
+    }
+  }
+}

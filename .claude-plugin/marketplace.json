@@ -1,0 +1,17 @@
+{
+  "name": "flocon-ai",
+  "owner": {
+    "name": "Flocon AI",
+    "email": "alfred@flocon-ai.com"
+  },
+  "metadata": {
+    "description": "The Flocon AI plugin for Claude: publish SEO pages to your own website."
+  },
+  "plugins": [
+    {
+      "name": "flocon-ai",
+      "source": "./",
+      "description": "Publish SEO pages to your own Next.js, React or Astro website straight from Claude."
+    }
+  ]
+}
