@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "flocon-ai": {
+      "type": "http",
+      "url": "https://mcp.flocon-ai.com",
+      "headers": {
+        "Authorization": "Bearer ${user_config.mcp_token}"
+      }
+    }
+  }
+}
